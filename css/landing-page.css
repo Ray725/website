@@ -15,10 +15,6 @@ body, h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-h2 {
-  color: #C4D8E2;
-}
-
 a {
   color: white;
 }
@@ -56,6 +52,14 @@ h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 4em;
+}
+
+h2 {
+  color: black;
+}
+
+hr {
+  width: 100%;
 }
 
 .intro-divider {
