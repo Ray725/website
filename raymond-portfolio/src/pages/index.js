@@ -8,10 +8,10 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
-    <Button variant="contained" color="primary"><Link to="/contact/">Contact</Link></Button>
-    <LinkButton route="contact" buttonText="Squad"></LinkButton>
-    <p><Link to="/resume/">Resume</Link></p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <LinkButton route="/" buttonText="Home"></LinkButton>
+    <LinkButton route="projects" buttonText="Projects"></LinkButton>
+    <LinkButton route="resume" buttonText="Resume"></LinkButton>
+    <LinkButton route="contact" buttonText="Contact"></LinkButton>
   </div>
 )
 

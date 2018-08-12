@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import LinkButton from './LinkButton'
+
 const Header = ({ siteTitle }) => (
   <div
     style={{
@@ -25,10 +27,14 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-        <h3>
-          Columbia University CS Major
-        </h3>
       </h2>
+      <h3>
+          Columbia University CS Major
+      </h3>
+      <LinkButton route="/" buttonText="Home"></LinkButton>
+      <LinkButton route="projects" buttonText="Projects"></LinkButton>
+      <LinkButton route="resume" buttonText="Resume"></LinkButton>
+      <LinkButton route="contact" buttonText="Contact"></LinkButton>
     </div>
   </div>
 )
