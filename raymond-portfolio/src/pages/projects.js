@@ -30,19 +30,7 @@ function ProjectPage(props) {
         </Grid>
         <Grid item xs={6}>
           <SimpleCard title="Google" date="2001" description="mine" url="https://google.com"></SimpleCard>
-        </Grid>
-        <Grid item xs={3}>
-          <SimpleCard title="Google" date="2001" description="mine" url="https://google.com"></SimpleCard>
-        </Grid>
-        <Grid item xs={3}>
-          <SimpleCard title="Google" date="2001" description="mine" url="https://google.com"></SimpleCard>
-        </Grid>
-        <Grid item xs={3}>
-          <SimpleCard title="Google" date="2001" description="mine" url="https://google.com"></SimpleCard>
-        </Grid>
-        <Grid item xs={3}>
-          <SimpleCard title="Google" date="2001" description="mine" url="https://google.com"></SimpleCard>
-        </Grid>
+      	</Grid>
       </Grid>
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import LinkButton from './LinkButton'
+import Grid from '@material-ui/core/Grid'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -18,23 +19,25 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h2 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
+        {siteTitle}
       </h2>
       <h3>
           Columbia University CS Major
       </h3>
-      <LinkButton route="/" buttonText="Home"></LinkButton>
-      <LinkButton route="projects" buttonText="Projects"></LinkButton>
-      <LinkButton route="resume" buttonText="Resume"></LinkButton>
-      <LinkButton route="contact" buttonText="Contact"></LinkButton>
+      <Grid container spacing={8}>
+        <Grid item xs>
+          <LinkButton route="/" buttonText="Home"></LinkButton>
+        </Grid>
+        <Grid item xs>
+          <LinkButton route="projects" buttonText="Projects"></LinkButton>
+        </Grid>
+        <Grid item xs>
+          <LinkButton route="resume" buttonText="Resume"></LinkButton>
+        </Grid>
+        <Grid item xs>
+          <LinkButton route="contact" buttonText="Contact"></LinkButton>
+        </Grid>
+      </Grid>
     </div>
   </div>
 )
