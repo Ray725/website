@@ -7,6 +7,8 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+import Background from './Background';
+
 const styles = {
   card: {
     minWidth: 275,
@@ -31,6 +33,7 @@ function SimpleCard(props) {
     <div>
       <Card>
         <CardContent>
+          <Background />
           <Typography variant="headline" component="h2">
             {props.title}
           </Typography>

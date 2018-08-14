@@ -10,27 +10,6 @@ import Typography from '@material-ui/core/Typography';
 import LinkButton from './LinkButton'
 import Grid from '@material-ui/core/Grid'
 
-const styles = {
-  card: {
-    minWidth: 275
-  },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    marginBottom: 8,
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-  background: {
-    color: '#84FFFF'
-  },
-};
-
 const Header = ({ siteTitle }) => (
   <div
     style={{
@@ -45,7 +24,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <Card color="black">
+      <Card>
         <CardContent>
           <h2 style={{ margin: 0 }}>
             {siteTitle}
@@ -55,16 +34,13 @@ const Header = ({ siteTitle }) => (
           </h3>
           <Grid container spacing={16} alignContent='center'>
             <Grid item xs>
-              <LinkButton route="/" buttonText="Home" color="default" variant="outlined"></LinkButton>
+              <LinkButton route="/" buttonText="About" color="default" variant="outlined"></LinkButton>
             </Grid>
             <Grid item xs>
               <LinkButton route="projects" buttonText="Projects" color="primary" variant="outlined"></LinkButton>
             </Grid>
             <Grid item xs>
-              <LinkButton route="resume" buttonText="Resume" color="secondary" variant="outlined"></LinkButton>
-            </Grid>
-            <Grid item xs>
-              <LinkButton route="contact" buttonText="Contact" color="default" variant="contained"></LinkButton>
+              <LinkButton route="contact" buttonText="Contact" color="secondary" variant="outlined"></LinkButton>
             </Grid>
           </Grid>
         </CardContent>
@@ -73,4 +49,4 @@ const Header = ({ siteTitle }) => (
   </div>
 )
 
-export default withStyles(styles)(Header)
+export default Header
