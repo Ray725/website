@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
@@ -13,7 +13,7 @@ import Grid from '@material-ui/core/Grid'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'white',
+      background: 'rgba(0, 0, 0, 0)',
       marginBottom: '1.45rem',
     }}
   >
@@ -26,10 +26,10 @@ const Header = ({ siteTitle }) => (
     >
       <Card>
         <CardContent>
-          <h2 style={{ margin: 0 }}>
+          <h2 style={{ margin: 0, color: 'black' }}>
             {siteTitle}
           </h2>
-          <h3>
+          <h3 style={{ color: 'black' }}>
               Columbia University CS Major
           </h3>
           <Grid container spacing={16} alignContent='center'>
