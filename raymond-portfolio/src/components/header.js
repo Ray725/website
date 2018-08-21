@@ -32,17 +32,17 @@ const Header = ({ siteTitle }) => (
           <h2 style={{ margin: 15, color: 'black' }}>
             {siteTitle}
           </h2>
-          <Grid container justify="space-evenly" alignItems="center" direction="row">
-            <Grid item xs>
+          <Grid container justify="space-evenly" alignItems="center">
+            <Grid item xs={0}>
               <LinkButton route="/" buttonText="About" color="default" variant="outlined"></LinkButton>
             </Grid>
-            <Grid item xs>
+            <Grid item xs={0}>
               <LinkButton route="projects" buttonText="Projects" color="primary" variant="outlined"></LinkButton>
             </Grid>
-            <Grid item xs>
+            <Grid item xs={0}>
               <LinkButton route="contact" buttonText="Contact" color="secondary" variant="outlined"></LinkButton>
             </Grid>
-            <Grid item xs>
+            <Grid item xs={1}>
               <FontAwesomeIcon icon={faCoffee} color="black" size="lg"/>
             </Grid>
           </Grid>
