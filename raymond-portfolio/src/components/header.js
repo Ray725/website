@@ -10,6 +10,9 @@ import Typography from '@material-ui/core/Typography';
 import LinkButton from './LinkButton'
 import Grid from '@material-ui/core/Grid'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faGithub } from '@fortawesome/free-solid-svg-icons'
+
 const Header = ({ siteTitle }) => (
   <div
     style={{
@@ -26,13 +29,10 @@ const Header = ({ siteTitle }) => (
     >
       <Card>
         <CardContent>
-          <h2 style={{ margin: 0, color: 'black' }}>
+          <h2 style={{ margin: 15, color: 'black' }}>
             {siteTitle}
           </h2>
-          <h3 style={{ color: 'black' }}>
-              Columbia University CS Major
-          </h3>
-          <Grid container spacing={16} alignContent='center'>
+          <Grid container justify="space-evenly" alignItems="center" direction="row">
             <Grid item xs>
               <LinkButton route="/" buttonText="About" color="default" variant="outlined"></LinkButton>
             </Grid>
@@ -41,6 +41,9 @@ const Header = ({ siteTitle }) => (
             </Grid>
             <Grid item xs>
               <LinkButton route="contact" buttonText="Contact" color="secondary" variant="outlined"></LinkButton>
+            </Grid>
+            <Grid item xs>
+              <FontAwesomeIcon icon={faCoffee} color="black" size="lg"/>
             </Grid>
           </Grid>
         </CardContent>
