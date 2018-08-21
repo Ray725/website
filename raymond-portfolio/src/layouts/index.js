@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import './styles.css'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div id="root">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
