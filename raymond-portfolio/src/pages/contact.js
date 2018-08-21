@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const ContactPage = () => (
   <div>
-    <h1>Hi people</h1>
+    <h1>Contact</h1>
     <p>This is my contact</p>
   </div>
 )

@@ -34,6 +34,9 @@ function ProjectPage(props) {
         <Grid item xs={12}>
           <SimpleCard title="Logan High School Peer Tutor System" date="2016" description="Founded a peer tutor program based on online appointment scheduling in high school." url="https://lhspeertutorsystem.herokuapp.com/"></SimpleCard>
         </Grid>
+        <Grid item xs={12}>
+          <SimpleCard title="Deprecated Personal Website" date="2016" description="Written in Ruby on Rails." url="https://raymondwangli.herokuapp.com/"></SimpleCard>
+        </Grid>
       </Grid>
     </div>
   );
