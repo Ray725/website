@@ -11,7 +11,7 @@ import LinkButton from './LinkButton'
 import Grid from '@material-ui/core/Grid'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faGithub } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faCode } from '@fortawesome/free-solid-svg-icons'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -43,7 +43,9 @@ const Header = ({ siteTitle }) => (
               <LinkButton route="contact" buttonText="Contact" color="secondary" variant="outlined"></LinkButton>
             </Grid>
             <Grid item xs={1}>
-              <FontAwesomeIcon icon={faCoffee} color="black" size="lg"/>
+              <a href="https://github.com/Ray725" target="_blank">
+                <FontAwesomeIcon icon={faCode} color="black" size="lg"/>
+              </a>
             </Grid>
           </Grid>
         </CardContent>
