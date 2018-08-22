@@ -3,3 +3,9 @@ https://ipfs.io/ipfs/QmSY3ebmVHL5Q4wR3GNtAciCkh9Mzy76BaKWYBShekuQuK
 
 Background Image
 https://ipfs.io/ipfs/QmSTR8aUwtUimwfAeXLVxW4bXzeJ52pJ1mx61X54kpzRcm
+
+Resume
+https://ipfs.infura.io/ipfs/QmR7kkeSuVQfzMjrDT5grnYABzw5xyr49KUqxnt6VSiFrn
+
+Mercatura
+https://ipfs.infura.io/ipfs/QmQ9L5LsPVbV4VdzPhFthaqFVoA8uXLypTZcuM41fQnnJ8
