@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import './styles.css'
+import favicon from './favicon.ico'
 
 const Layout = ({ children, data }) => (
   <div id="root">
@@ -12,6 +13,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Raymond Li developer portfolio.' },
         { name: 'keywords', content: 'software, developer, Columbia, computer, science' },
+      ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
