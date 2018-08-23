@@ -9,3 +9,6 @@ https://ipfs.infura.io/ipfs/QmR7kkeSuVQfzMjrDT5grnYABzw5xyr49KUqxnt6VSiFrn
 
 Mercatura
 https://ipfs.infura.io/ipfs/QmQ9L5LsPVbV4VdzPhFthaqFVoA8uXLypTZcuM41fQnnJ8
+
+Site hosting
+https://ipfs.infura.io/ipfs/QmZ2hmbt2P9G4GZdhBnXgwLJndffkymKYyFJHk4TWQNxGf
