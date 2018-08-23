@@ -1,0 +1,66 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-7d7d81e5fd0b3a9ea9a5.js",
+      "component---src-pages-index-js-7d7d81e5fd0b3a9ea9a5.js.map"
+    ],
+    "path---": [
+      "path----da4625c179346ad771fa.js",
+      "path----da4625c179346ad771fa.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-e2ce2a475dd0f9c58a48.js",
+      "component---src-pages-contact-js-e2ce2a475dd0f9c58a48.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-b1ccd7b2c74a40846540.js",
+      "component---src-layouts-index-js-b1ccd7b2c74a40846540.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-resume-js": [
+      "component---src-pages-resume-js-21761deafcc3ead0e8ef.js",
+      "component---src-pages-resume-js-21761deafcc3ead0e8ef.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-3de1f6e006bfa4507168.js",
+      "commons-3de1f6e006bfa4507168.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-e0679004a4178a05112b.js",
+      "component---src-pages-projects-js-e0679004a4178a05112b.js.map"
+    ],
+    "path---resume": [
+      "path---resume-a0e39f21c11f6a62c5ab.js",
+      "path---resume-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-d7a76f84956b4fb35c54.js",
+      "build-js-styles.css",
+      "app-d7a76f84956b4fb35c54.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
